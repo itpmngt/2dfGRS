@@ -1,0 +1,47 @@
+{
+  "name": "2dfGRS",
+  "description": "Javascript interface to handle the 2df Galaxy Redshift Survey data.",
+  "version": "0.2.1",
+  "author": {
+    "name": "Joe Rosa",
+    "email": "joe.astrophysics@gmail.com"
+  },
+  "keywords": [
+    "FITS",
+    "fits",
+    "2dF GRS",
+    "2dF Galaxy Redshift Survey"
+  ],
+  "homepage": "https://github.com/itpmngt/2dfGRS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itpmngt/2dfGRS.git"
+  },
+  "main": "app.js",
+  "dependencies": {
+    "express": "3.x",
+    "mongojs": "0.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "line-by-line": "~0.1.1"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/itpmngt/2dfGRS/master/LICENSE"
+    }
+  ],
+  "readme": "\n# 2dfGRS\n## Javascript interface to handle the 2df Galaxy Redshift Survey data\n\nThis is a project to handle the [2dfGRS](http://www2.aao.gov.au/2dfgrs/) data using [NodeJS](http://nodejs.org/) server and [MongoDB](http://www.mongodb.org/) database engine to take advantage of the [Biga Data technologies](http://en.wikipedia.org/wiki/Big_data).\n\n\n## License:\n\nThe MIT License (MIT)\n\nCopyright � 2014 Joe Rosa\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/itpmngt/2dfGRS/issues"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  }
+}
