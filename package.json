@@ -23,8 +23,7 @@
     "mongojs": "0.4.6"
   },
   "devDependencies": {
-    "nodemon": "*",
-    "line-by-line": "~0.1.1"
+    "nodemon": "*"
   },
   "optionalDependencies": {},
   "engines": {
